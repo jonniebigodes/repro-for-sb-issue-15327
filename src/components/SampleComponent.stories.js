@@ -3,6 +3,16 @@ import SampleComponent from "./SampleComponent.vue";
 export default {
   component: SampleComponent,
   title: "Sample Component with Complex values",
+  argTypes: {
+    propertyA: {
+      options: ["Item One", "Item Two", "Item Three"],
+      control: { type: "select" }, // automatically inferred when 'options' is defined
+    },
+    propertyB: {
+      options: ["Another Item One", "Another Item Two", "Another Item Three"],
+      control: { type: "select" }, // automatically inferred when 'options' is defined
+    },
+  },
 };
 
 const someFunction = (valuePropertyA, valuePropertyB) => {
