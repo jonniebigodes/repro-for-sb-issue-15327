@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>This is a sample component to test out args override</h1>
+    <h1>This is a sample component to test out args override with SB 6.2</h1>
     <div>
       <h2>This component has the following props</h2>
       <div>
