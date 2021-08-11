@@ -5,12 +5,16 @@ export default {
   title: "Sample Component with Complex values",
   argTypes: {
     propertyA: {
-      options: ["Item One", "Item Two", "Item Three"],
-      control: { type: "select" }, // automatically inferred when 'options' is defined
+      control: {
+        type: "select",
+        options: ["Item One", "Item Two", "Item Three"],
+      },
     },
     propertyB: {
-      options: ["Another Item One", "Another Item Two", "Another Item Three"],
-      control: { type: "select" }, // automatically inferred when 'options' is defined
+      control: {
+        type: "select",
+        options: ["Another Item One", "Another Item Two", "Another Item Three"],
+      },
     },
   },
 };
@@ -39,5 +43,4 @@ export const Default = Template.bind({});
 Default.args = {
   PropertyA: "One item",
   PropertyB: "Another item",
-  someProperty: "Something else",
 };

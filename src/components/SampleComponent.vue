@@ -32,7 +32,7 @@ export default {
       default: "Some Property",
     },
   },
-  mounted: function () {
+  /* mounted: function () {
     console.log(
       `Sample component value someprop mounted =>${this.someProperty}`
     );
@@ -41,6 +41,6 @@ export default {
     console.log(
       `Sample component value someprop updated =>${this.someProperty}`
     );
-  },
+  }, */
 };
 </script>
