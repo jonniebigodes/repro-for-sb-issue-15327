@@ -2,7 +2,7 @@
   <div>
     <h1>This is a sample component to test out args override with SB 6.1</h1>
     <div>
-      <h2>This component has the following props</h2>
+      <h2>This component has the following props inside</h2>
       <div>
         <h3>PropertyA has the following value</h3>
         {{ PropertyA }}
